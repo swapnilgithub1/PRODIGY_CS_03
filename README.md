@@ -1,25 +1,38 @@
 # PRODIGY_CS_03
 # Password Complexity Checker
 
-## Description
-This is a Python-based tool that assesses the strength of a password based on various criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters. The tool provides feedback to users on the strength of their password and suggestions for improvement.
+This is a graphical application for assessing password strength using Python's Tkinter library. It evaluates a password based on various criteria and provides feedback to help improve the password's strength.
 
 ## Features
-- Assess password strength based on multiple criteria
-- Provide feedback to improve password strength
-- Simple and easy to use
+
+- Assess password strength based on length, lowercase letters, uppercase letters, numbers, and special characters.
+- Provides feedback to improve password strength.
+- Simple and intuitive graphical user interface (GUI).
 
 ## Requirements
-- Python 3.6 or higher
-- `re` module (comes pre-installed with Python)
 
-## Installation
-1. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/).
-2. Clone this repository or download the script to your local machine.
+- Python 3.x
+- Tkinter (usually included with Python installations)
+- re (regular expressions, included in the Python Standard Library)
 
 ## Usage
-1. Open your terminal or command prompt.
-2. Navigate to the directory where the script is saved.
-3. Run the script using the following command:
-   ```sh
-  python password_strength.py
+
+1. Run the script to start the application:
+
+    ```bash
+    python password_strength.py
+    ```
+
+2. Enter your password in the "Enter your password" field.
+3. Click the "Check Strength" button to see the password's strength and feedback for improvement.
+
+## GUI Components
+The GUI is built using Tkinter and ttk widgets:
+
+Entry widget for inputting the password.
+
+Button to check the password's strength.
+
+Label to display the strength of the password.
+
+Text widget to display feedback.
