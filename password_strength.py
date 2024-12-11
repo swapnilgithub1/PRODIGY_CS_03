@@ -64,5 +64,5 @@ def assess_password_strength(password):
 >>> feedback_text = tk.Text(root, width=60, height=10)
 >>> feedback_text.grid(row=3, column=0, columnspan=2, padx=10, pady=10)
 >>> 
->>> # Run the application
+>>> # Run the application #root.mainloop()
 >>> root.mainloop()
